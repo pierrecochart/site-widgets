@@ -6,7 +6,7 @@
       var html =
         '<a href="' + data.url + '" target="_blank" rel="dofollow" ' +
         'style="display:inline-flex;align-items:center;gap:8px;' +
-        'margin:10px 0 0;padding:8px 16px;border-radius:999px;' +
+        'margin:10px 0 20px;padding:8px 16px;border-radius:999px;' +
         'background:var(--orange-light, #fef0e6);' +
         'border:1px solid var(--border-warm, rgba(242,113,39,0.22));' +
         'text-decoration:none;color:var(--ink-mid, #3d3d55);' +
