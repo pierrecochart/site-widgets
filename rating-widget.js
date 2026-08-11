@@ -1,5 +1,5 @@
 (function () {
-  fetch('https://cdn.jsdelivr.net/gh/YOURUSERNAME/site-widgets@main/rating.json')
+  fetch('https://cdn.jsdelivr.net/gh/pierrecochart/site-widgets@main/rating.json')
     .then(res => res.json())
     .then(data => {
       var stars = '★'.repeat(Math.round(data.rating)) + '☆'.repeat(5 - Math.round(data.rating));
